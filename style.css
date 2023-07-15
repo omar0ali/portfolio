@@ -165,13 +165,13 @@ button {
 }
 
 .card {
-    font-size: 20px;
+    font-size: 15px;
     display: flex;
     align-items: center;
     border: 0px #000000;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 5px;
+    padding: 0px;
     height: 50px;
     cursor: pointer;
     transition: transform .2s;
@@ -225,3 +225,26 @@ input[type=email] {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+#myBtn {
+    width: 50px;
+    height: 50px;
+    display: block; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    top: 30px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #d39c9c; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
