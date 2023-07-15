@@ -1,0 +1,227 @@
+* {
+    font-family: 'Poppins', 'sans-serif';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+    color: inherit;
+    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+    transition: text-decoration-color 300ms;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    padding: 4px;
+    margin-top: 10px;
+    transition: box-shadow 300ms;
+    
+}
+
+img:hover {
+    box-shadow: 0 0 10px #a85d74;
+}
+
+h2:hover, h1:hover{
+    text-decoration-color: #a85d74;
+}
+
+strong {
+    text-underline-position: below;
+    text-decoration: solid;
+    text-decoration-color: #2a2a2a;
+    text-decoration-thickness: 5px, 0, 20%;
+    text-decoration-line: 50%;
+    color: inherit;
+    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+    transition: text-decoration-color 300ms;
+}
+
+  strong:hover {
+    text-decoration-color: rgb(2, 2, 2);
+  }
+
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+td {
+    font-size: 18px;
+}
+
+.noDecoration,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+.social-icons a {
+    padding-top: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+p {
+    margin-top: 30px;
+}
+
+p i {
+    color: #a85d74;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons a:hover {
+    color: #a85d74;
+    transform: translateY(-5px);
+}
+
+.btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #000000;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #000000;
+    transition: background 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+    background: #a85d74;
+    border-color: white;
+    color: white;
+}
+
+button:hover {
+    background: #a85d74;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    border: 1px solid #a85d74;
+    padding: 14px 50px;
+    cursor: pointer;
+    transition: background 0.5s;
+    transition: box-shadow 300ms;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+fieldset {
+    border-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.copyright {
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #d3d3d3;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    border-radius: 20px;
+}
+
+#fieldset {
+    font-size: 24px;
+    overflow: scroll;
+    width: auto;
+    height: 97%;
+}
+
+button {
+    background-color: #2a2a2a;
+    border: none;
+    color: white;
+    width: 200px;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    border: 0px #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 50px;
+    cursor: pointer;
+    transition: transform .2s;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.cen {
+    text-align: left;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.contact {
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #c6a3ad;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
