@@ -1,6 +1,11 @@
 {
     "items": [
         {
+            "title": "Gym Notebook",
+            "link": "https://github.com/omar0ali/gym-notebook-vem_client",
+            "description": "This is the user-friendly front-end of the gym-notebook website, designed as the go-to platform for fitness enthusiasts to easily document and track their daily workout routines. The back-end is developed in a private repo."
+        },
+        {
             "title": "Seeisve",
             "link": "https://omar0ali.github.io/seeisve/",
             "description": "CSV Manipulator tool allows you to effortlessly manipulate and update CSV (Comma-Separated Values) files with ease. Whether you need to clean, transform, or enrich your data, this website provides a user-friendly interface to accomplish your tasks efficiently."
