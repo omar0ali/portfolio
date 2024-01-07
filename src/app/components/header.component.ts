@@ -19,6 +19,14 @@ import { Component } from '@angular/core'
             <li class="nav-item">
               <a class="nav-link" href="/projects">Projects</a>
             </li>
+            <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Articles
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="article">article 1</a></li>
+          </ul>
+        </li>
             <li class="nav-item">
               <a class="nav-link" href="/contact">Contact</a>
             </li>

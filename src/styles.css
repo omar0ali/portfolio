@@ -3,3 +3,10 @@ html {
     margin-right: 200px;
     font-size: 18px;
 }
+
+@media (pointer:none), (pointer:coarse) {
+    html {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

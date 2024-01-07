@@ -19,7 +19,7 @@ import { Component } from '@angular/core';
                     <div id="collapseOne" class="accordion-collapse collapse show"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>Paphus Solutions Inc</strong><br>
+                            <h5>Paphus Solutions Inc <span class="badge bg-primary">Full Stack Developer</span></h5> 
                             <a class="badge text-bg-info" href="https://Paphussolutions.com">Paphus Solutions
                                 Inc.</a><br>
                             <a class="badge text-bg-info" href="https://Botlibre.com">BotLibre

@@ -9,7 +9,11 @@ import { Component } from '@angular/core';
             <h1>Projects</h1>
             <hr>
             <div class="alert alert-dark" role="alert">
-                <p>All the following projects can be viewed through my github account. <span class="badge bg-secondary">omarbajunaid</span> and <span class="badge bg-secondary">omar0ali</span>. LinkedIn Account. <span class="badge bg-secondary">LinkedIn</span>
+                <p>All projects can be viewed through my github accounts.</p>
+                <div class="btn-group">
+                  <a href="https://github.com/omarbajunaid" class="btn btn-primary"><i class="fa-brands fa-square-github"></i> /omarbajunaid</a>
+                  <a href="https://github.com/omar0ali" class="btn btn-primary"><i class="fa-brands fa-square-github"></i> /omar0ali</a>
+                </div>
             </div>
             <div class="card">
                 <h5 class="card-header">Featured</h5>
