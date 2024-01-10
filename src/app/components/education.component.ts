@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   imports: [],
   template: `
     <section>
-                <h2>Education</h2>
+            <h2>Education</h2>
                 <hr>
                 <div class="accordion" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">

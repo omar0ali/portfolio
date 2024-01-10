@@ -81,8 +81,8 @@ import { Component } from '@angular/core';
                                     the
                                     functionalities
                                     offered by the original Java SDK.</p>
-                                For more information please check my work github: <a class="badge text-bg-info" href="https://github.com/omarbajunaid">
-                                    Github</a>
+                                    To track my progress, please visit my GitHub work account <a href="https://github.com/omarbajunaid">
+                                    <i class="fa-brands fa-square-github">github</i></a>
                             </ul>
                             <p>Overall, I have a strong background in software development and AI, with a diverse
                                 set
@@ -99,7 +99,9 @@ import { Component } from '@angular/core';
         </section>
   `,
   styles: `
-  
+    i {
+        font-size: 20px;
+    }
   `
 })
 export class ExperienceComponent {

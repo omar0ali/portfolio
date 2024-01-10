@@ -11,11 +11,7 @@ import { ExperienceComponent } from '../components/experience.component';
         <section>
             <h1>Greetings</h1>
             <hr>
-            <p>I sketch, design, code, and build web and native apps, seeing great results and enjoying my progress.
-                It's become my inspiration to solve real-world problems, making solutions open source for people to
-                benefit from. I also contribute to open source projects. I've worked with various programming
-                languages like Python, TypeScript/JS, MySQL, Java, PHP, and more. I've learned to stay prepared and
-                follow language trends.</p>
+            <p>I sketch, design, code, and build web and native apps, witnessing great results and relishing my progress. This has become my inspiration to solve real-world problems, offering open-source solutions for people to benefit from. Additionally, I actively contribute to open-source projects. I've worked with various programming languages such as Python, TypeScript/JavaScript, MySQL, Java, PHP, and more. I've learned to stay prepared and keep abreast of language trends.</p>
         </section>
       <app-education></app-education>
       <br>

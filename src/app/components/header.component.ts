@@ -44,5 +44,5 @@ import { Component } from '@angular/core'
   `
 })
 export class HeaderComponent {
-  title?:string = "omar ali"
+  title?:string = "Omar Ali BaGunaid"
 }

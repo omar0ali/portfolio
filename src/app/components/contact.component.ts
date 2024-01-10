@@ -15,6 +15,21 @@ import { Component } from '@angular/core';
       </form>
       <span id="msg"></span>
     </div>
+  <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Contact Info</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{email[0]}}</td>
+    </tr>
+    <tr>
+      <td>{{email[1]}}</td>
+    </tr>
+  </tbody>
+</table>
   `,
   styles: `
   button:hover {
@@ -78,5 +93,5 @@ input[type=email] {
   `
 })
 export class ContactComponent {
-
+  email:Array<string> = ["bajunaidomar@outlook.com", "bajunaidomar@gmail.com"]
 }
