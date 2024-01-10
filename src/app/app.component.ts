@@ -12,7 +12,7 @@ import { FooterComponent } from './components/footer.component';
   template: `
     <main>
     <div class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
-      You can download a pdf version of my resume from this link <a href="./src/assets/omar-bajunaid.pdf" download>Omar-BaGunaid.pdf</a>
+      You can download a pdf version of my resume from this link <a href="../../assets/omar-bagunaid.pdf" download>Omar-BaGunaid.pdf</a>
     </div>
     </main>
     <app-header></app-header>
